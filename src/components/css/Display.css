@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: linear-gradient(90deg, rgb(54, 0, 54) 0%, rgb(0, 0, 25) 100%);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white; /* Text color */
+}
+
+.scan-results-container {
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Added padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.custom-table {
+  width: 100%;
+  margin: 0 auto; /* Center the table */
+}
+
+.line {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.line-number {
+  flex: 1;
+  margin-right: 10px;
+  color: #666;
+}
+
+.line-content {
+  flex: 4;
+  flex-grow: 1;
+  word-wrap: break-word; /* Ensure long lines wrap to the next line */
+  color: #83c8de;
+}
+
+.scan-results-container h2 {
+  font-size: 2em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Rest of your styles remain unchanged */
